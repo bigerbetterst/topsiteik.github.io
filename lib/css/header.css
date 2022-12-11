@@ -1,0 +1,177 @@
+/* .container-mobile {
+    display: none;
+    max-width: 1756px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+} */
+
+.container-desktop {
+    height: 100%;
+    min-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    padding-top: 24px;
+    padding-bottom: 20px;
+    background-color: #2F2E37;
+}
+.header-mobile {
+    padding-top: 24px;
+    padding-bottom: 20px;
+    background-color: #2F2E37;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.header-nav {
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.header-nav ul {
+    display: flex;
+}
+
+.header-nav li:not(:last-child) {
+    margin-right: 48px;
+}
+
+.header-nav a {
+    transition: 0.2s ease;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+.header-login {
+    display: flex;
+    align-items: center;
+}
+.header-login-avatar {
+    margin-left: 19px;
+    border-radius: 5px;
+    max-width: 37px;
+}
+
+.discord-ava {
+    max-width: 44px;
+    /* height: 44px; */
+    margin-left: 27px;
+    border-radius: 2px;
+}
+
+.nav-items {
+    overflow-y: auto;
+    display: none;
+    /* position: fixed; */
+    position: absolute;
+    background-color: #2F2E37;
+    z-index: 99;
+    top: 101px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.dropbtn2 {
+    display: none;
+}
+.show {
+    display: block;
+}
+
+.profile-window-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 15px 22px;
+    transition: background-color .15s ease;
+    color: #e1e5eb;
+}
+
+.text-items {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -.1px;
+}
+.nav-profile-info {
+    display: flex;
+    margin: 22px;
+    justify-content: center;
+}
+.nav-profile-info img {
+    margin-left: 19px;
+    border-radius: 2px;
+}
+.item-icon {
+    display: flex;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    margin-right: 12px;
+}
+.profile-window-item._active {
+    cursor: default;
+    color: #1d72f2;
+}
+.profile-window-item._active:before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    top: 0;
+    bottom: 0;
+    
+    left: 0;
+    background-color: #1d72f2;
+    border-radius: 2px 2px 0 0;
+}
+.header-btn {
+    font-size: 16px;
+    color: #FFFFFF;
+    height: 42px;
+    padding-right: 37px;
+    padding-left: 37px;
+    display: inline-block;
+    line-height: 32px;
+    transition: border-top 0.1s ease, border-bottom 0.1s ease, background-color 0.1s ease, color 0.1s ease;
+}
+.header-gray,
+a.header-gray {
+    background-color: #565463;
+    border-top: 5px solid #737082;
+    border-bottom: 5px solid #474552;
+}
+
+.header-gray:hover {
+    border-top: 5px solid #737082; 
+    border-bottom: 5px solid #474552;
+    background-color: #737082;
+    line-height: 28px;
+}
+
+.header-gray:active {
+    border-top: 5px solid #8A82A1;
+    border-bottom: 5px solid #655D7B;
+    background-color: #8A82A1;
+    line-height: 28px;
+
+    color: #4B4757;
+}
+.minecraft {
+    font-family: 'Minecraft-Five';
+    padding-right: 6px;
+}

@@ -1,0 +1,328 @@
+.container {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.home {
+    padding-top: 200px;
+    padding-bottom: 270px;
+    background-color: #3A3546;
+    position: relative;
+}
+@media (max-width: 10920px) {
+    .header-mobile {
+        display: none;
+    }
+    .header {
+        display: block;
+    }
+}
+
+@media (max-width: 1500px) {
+    .header-mobile {
+        display: block;
+        /* position: fixed; */
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+    }
+    .header {
+        display: none;
+    }
+    .container {
+        padding-left: 15px;
+        padding-right: 30px;
+    }
+    .header-login {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+    .home {
+        padding-top: 300px;
+        padding-bottom: 200px;
+        min-height: auto;
+    }
+    .home-bg-img svg {
+        width: 494px;
+        height: 680px;
+    }
+    .home-bg-img {
+        top: 101px;
+    }
+    .home-bg-img img {
+        max-width: 500px;
+    }
+    .home-content {
+        margin-right: auto;
+    }
+    .container-home {
+        margin-top: 0px;
+    }
+
+    .container-quality {
+        max-width: 1260px;
+    }
+    .online-text {
+        font-size: 24px;
+    }
+    .tps-text {
+        font-size: 24px;
+    }
+    .ivents-text {
+        font-size: 24px;
+    }
+}
+@media (max-width: 1360px) {
+    .home-bg-img img {
+        max-width: 400px;
+    }
+    .container-quality {
+        max-width: 1040px;
+    }
+    .online {
+        padding-top: 55px;
+        padding-right: 40px;
+    }
+    .box1 {
+        padding-left: 162px;
+    }
+    .bg-alex {
+        left: -124px;
+    }
+    .tps {
+        padding-top: 55px;
+        padding-right: 40px;
+    }
+    .box2 {
+        padding-left: 162px;
+    }
+    .bg-lava {
+        left: -32px;
+        top: 49px;
+    }
+    .bg-lava img {
+        max-height: 236px;
+    }
+    .box3 {
+        padding-left: 325px;
+    }
+    .bg-villagerr {
+        top: -68px;
+        left: -36px;
+    }
+    .bg-villagerr img {
+        max-height: 360px;
+    }
+}
+@media (max-width: 1140px) {
+    .home-bg-img img {
+        display: none;
+    }
+    .home-bg-img svg {
+        width: 420px;
+        height: 578px;
+    }
+    .container-quality {
+        max-width: 940px;
+    }
+    .online-text {
+        font-size: 20px;
+    }
+    .tps-text {
+        font-size: 20px;
+    }
+    .ivents-text {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1040px) {
+    .home-content {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .home-bg-img {
+        display: none;
+    }
+    .container-quality {
+        max-width: 850px;
+    }
+    .online-text {
+        font-size: 18px;
+    }
+    .tps-text {
+        font-size: 18px;
+    }
+    .ivents-text {
+        font-size: 18px;
+    }
+}
+@media (max-width: 992px) {
+    .wrapper {
+        display: none;
+    }
+    .wrapper-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .container-quality {
+        max-width: 800px;
+    }
+    .bg-villagerr {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .container-quality {
+        max-width: 500px;
+    }
+    .wrapper-mobile {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .online-text-mobile {
+        font-size: 20px;
+    }
+    .tps-text-mobile {
+        font-size: 20px;
+    }
+    .ivents-text-mobile {
+        font-size: 20px;
+        line-height: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .online-mobile {
+        padding-right: 50px;
+    }
+    .box1-mobile {
+        padding-left: 148px;
+    }
+    .box2-mobile {
+        padding-left: 50px;
+    }
+    .tps-mobile {
+        padding-right: 205px;
+    }
+    .bg-lava-mobile {
+        right: -20px; 
+    }
+    .ivents-mobile {
+        padding-top: 40px;
+    }
+    .quality-heading {
+        font-size: 32px;
+        line-height: 20px;
+    }
+}
+@media (max-width: 576px) {
+    .container-quality {
+        max-width: 390px;
+    }
+    .wrapper-mobile {
+        max-width: 390px;
+    }
+    .bg-alex img {
+        max-height: 290px;
+    }
+    .bg-alex {
+        top: -6px;
+        left: -86px;
+    }
+    .box1-mobile {
+        padding-left: 112px;
+    }
+    .bg-lava-mobile img {
+        max-height: 205px;
+    }
+    .bg-lava-mobile {
+        top: 79px;
+    }
+    .tps-mobile {
+        padding-right: 122px;
+    }
+}
+@media (max-width: 390px) {
+    .quality-heading {
+        font-size: 26px;
+    }
+    .container-quality {
+        max-width: 300px;
+    }
+    .wrapper-mobile {
+        max-width: 300px;
+    }
+    .online-mobile {
+        padding-right: 30px;
+        padding-top: 8px;
+    }
+    .online-text-mobile {
+        font-size: 16px;
+    }
+    .tps-text-mobile {
+        font-size: 16px;
+    }
+    .ivents-text-mobile {
+        font-size: 16px;
+    }
+    .box1-mobile {
+        padding-left: 30px;
+        height: 200px;
+    }
+    .bg-alex img {
+        max-height: 225px;
+    }
+    .bg-alex {
+        top: -29px;
+        left: -89px;
+    }
+    .box2-mobile {
+        padding-left: 8px;
+        height: 200px;
+    }
+    .tps-mobile {
+        padding-right: 111px;
+        padding-top: 8px;
+    }
+    .bg-lava-mobile img {
+        max-height: 170px;
+    }
+    .bg-lava-mobile {
+        top: 26px;
+        right: -13px;
+    }
+}
+/* .indent, .footer {
+    display: none;
+} */
+
+/* @media (max-width: 1400px) {
+    .container {
+        max-width: 1320px; 
+    }
+} */
+
+/* @media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1320px; }
+}
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1140px; 
+    }
+}
+@media (min-width: 992px) {
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 960px; }
+}
+@media (min-width: 768px) {
+.container, .container-md, .container-sm {
+    max-width: 720px; }
+}
+@media (min-width: 576px) {
+.container, .container-sm {
+    max-width: 540px; }
+} */

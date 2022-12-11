@@ -1,0 +1,78 @@
+.sel-404{
+    background-color: #3A3546;
+	min-height: 100vh;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.content404 {
+    max-width: 660px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title404 {
+	font-family: "Minecraft";
+	letter-spacing: 1px;
+
+	font-style: normal;
+	font-size: 40px;
+	line-height: 40px;
+	text-align: center;
+    margin-top: 0;
+
+	color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title404-image {
+	font-family: "IntroBold";
+	letter-spacing: 1px;
+	height: 30px;
+
+	font-style: normal;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+    padding-bottom: 103px;
+
+
+	color: #FFFFFF;
+
+}
+
+.title4042 {
+	font-family: "Minecraft-Rus";
+	text-align: center;
+
+	color: #FFFFFF;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.logo404-image {
+    width: 360px;
+    height: 120px;
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line {
+    width: 430px;
+    height: 0px;
+
+    border: 3px solid #FFFFFF;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+}

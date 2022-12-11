@@ -1,0 +1,354 @@
+@font-face {
+    font-family: "IntroDemo";
+    src: url("fonts/IntroDemo-BlackCAPS.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "IntroBold";
+    src: url("fonts/intro_bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Minecraft";
+    src: url("fonts/Minecraft.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Minecraft-Rus";
+    src: url("fonts/minecraft-rus.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Minecraft-Five";
+    src: url("fonts/MinecraftFive.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("fonts/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Minecraft-Five-Bold";
+    src: url("fonts/MinecraftFive-Bold.ttf") format("truetype");
+}
+
+body {
+    font-family: 'IntroDemo';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #3A3546;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Utility */
+
+.red {
+    color: #FF5E5E;
+}
+
+.light-gray {
+    color: #CECECE;
+}
+.light-gray-text {
+    color: #9A96A2;
+}
+
+.none {
+    display: none !important;
+}
+
+.visually-hidden {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+/* Grid */
+
+.container-footer {
+    max-width: 1756px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.container-home {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 100%;
+}
+
+.container-apanel {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.container-quality {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.container-whiteblock {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+}
+
+.container-bank {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.container-slider {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 200px;
+    width: 100%;
+}
+
+.container-drugoe {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+}
+
+.container-faq {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100%;
+}
+.container-api {
+    max-width: 756px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.container-404 {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-indent {
+    background-color: #3A3546;
+    min-height: 250px;
+    position: relative;
+}
+
+
+.container-wide {
+    width: 1536px;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+
+/* СРЕДНЯЯ КНОПКА */
+.btn,
+a.btn {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: rgba(255, 103, 180, 1);
+    border-radius: 0px;
+    height: 42px;
+    padding-right: 33px;
+    padding-left: 33px;
+    display: inline-block;
+    line-height: 32px;
+    border-top: 5px solid #FF92C5;
+    border-bottom: 5px solid #B84FB6;
+    transition: border-top 0.1s ease, border-bottom 0.1s ease, background-color 0.2s ease;
+}
+
+.btn:hover {
+    border-top: 5px solid #8A8A8A;
+    border-bottom: 5px solid #414141;
+    background-color: #5F5F5F;
+
+    color: #ffffff;
+}
+
+.btn:active {
+    border-top: 7px solid #8A8A8A;
+    border-bottom: 5px solid #414141;
+    background-color: #5F5F5F;
+
+    color: #ffffff;
+}
+
+/* СРЕДНЯЯ КНОПКА */
+.btn-gray-style,
+a.btn-gray-style {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #5F5F5F;
+    border-radius: 0px;
+    height: 42px;
+    padding-right: 33px;
+    padding-left: 33px;
+    display: inline-block;
+    line-height: 32px;
+    border-top: 5px solid #8A8A8A;
+    border-bottom: 5px solid #414141;
+    transition: border-top 0.1s ease, border-bottom 0.1s ease, background-color 0.2s ease;
+}
+
+.btn-gray-style:hover {
+    border-top: 5px solid #8A8A8A;
+    border-bottom: 5px solid #414141;
+    background-color: #5F5F5F;
+
+    color: #ffffff;
+}
+
+.btn-gray-style:active {
+    border-top: 7px solid #8A8A8A;
+    border-bottom: 5px solid #414141;
+    background-color: #5F5F5F;
+
+    color: #ffffff;
+}
+
+/* СРЕДНЯЯ КНОПКА */
+.btn-gold-style,
+a.btn-gold-style {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #D9A64F;
+    border-radius: 0px;
+    height: 42px;
+    padding-right: 33px;
+    padding-left: 33px;
+    display: inline-block;
+    line-height: 32px;
+    border-top: 5px solid #F3DAB3;
+    border-bottom: 5px solid #B68025;
+    transition: border-top 0.1s ease, border-bottom 0.1s ease, background-color 0.2s ease;
+}
+
+.btn-gold-style:hover {
+    border-top: 5px solid #8A8A8A;
+    border-bottom: 5px solid #414141;
+    background-color: #5F5F5F;
+
+    color: #ffffff;
+}
+
+.btn-gold-style:active {
+    border-top: 7px solid #8A8A8A;
+    border-bottom: 5px solid #414141;
+    background-color: #5F5F5F;
+
+    color: #ffffff;
+}
+
+.btn-blue-style,
+a.btn-blue-style {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4F7ED9;
+    border-radius: 0px;
+    height: 42px;
+    font-family: "IntroDemo";
+    padding-right: 33px;
+    padding-left: 33px;
+    display: inline-block;
+    line-height: 32px;
+    border-top: 5px solid #7BA8FF;
+    border-bottom: 5px solid #395791;
+    transition: border-top 0.1s ease, border-bottom 0.1s ease, background-color 0.2s ease;
+}
+
+.btn-blue-style:hover {
+    border-top: 5px solid #8A8A8A;
+    border-bottom: 5px solid #414141;
+    background-color: #5F5F5F;
+
+    color: #ffffff;
+}
+
+.btn-blue-style:active {
+    border-top: 7px solid #8A8A8A;
+    border-bottom: 5px solid #414141;
+    background-color: #5F5F5F;
+
+    color: #ffffff;
+}
+
+.center-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.logo404 {
+    text-align: center;
+}
+
+/* ширина */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Фон скролла */
+::-webkit-scrollbar-track {
+    background: #48455E;
+}
+
+/* Сам скролл */
+::-webkit-scrollbar-thumb {
+    background: #554e68;
+    border-radius: 2px;
+}
+
+/* Ручка при наведении */
+::-webkit-scrollbar-thumb:hover {
+    background: #74708f;
+}
